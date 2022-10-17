@@ -22,7 +22,7 @@ public class EJ03 {
         //APARTADO B
         int x = 10;
         int y = (x > 9) ? 100 : 200;
-        //Devolvera 200 ya que x no es mayor que 10
+        //Devolvera 100 ya que x es mayor que 9
         
         
         //APARTADO C
