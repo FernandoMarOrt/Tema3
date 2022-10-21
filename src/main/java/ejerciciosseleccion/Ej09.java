@@ -1,6 +1,6 @@
-package EjerciciosSeleccion;
+package ejerciciosseleccion;
 
-public class EJ09 {
+public class Ej09 {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package EjemplosClase;
+package ejemplosclase;
 
 import java.util.Scanner;
 

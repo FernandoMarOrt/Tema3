@@ -1,8 +1,8 @@
-package EjerciciosSeleccion;
+package ejerciciosseleccion;
 
 import java.util.Scanner;
 
-public class EJ03 {
+public class Ej03 {
 
     public static void main(String[] args) {
 

@@ -50,23 +50,16 @@ public class Switchrandom2 {
         
         String letraString = teclado.nextLine();
         
-        switch (letraString) {
-            case "A" , "B" , "C":
-                //Entre 1 y 10
-                numAleatorio = generador.nextInt(10)+1;
-                break;
-            case "D":
-                //Entre 11 y 25
-                numAleatorio = generador.nextInt(15)+11; //EL quince seria el grande menos el chico mas 1 es decir 25-11+1
-                break;
-            case "E":
-                //Entre 26 y 33
-                numAleatorio = generador.nextInt(8)+26;
-                break;
-            default:
-                //Entre 34 y 100
-                numAleatorio = generador.nextInt(67)+34;
-        }
+        numAleatorio = switch (letraString) {
+            case "A", "B", "C" -> generador.nextInt(10)+1;
+            case "D" -> generador.nextInt(15)+11;
+            case "E" -> generador.nextInt(8)+26;
+            default -> generador.nextInt(67)+34;
+        }; //Entre 1 y 10
+        //Entre 11 y 25
+        //EL quince seria el grande menos el chico mas 1 es decir 25-11+1
+        //Entre 26 y 33
+        //Entre 34 y 100
         
         System.out.println("El numero generado es " + numAleatorio);
     }
