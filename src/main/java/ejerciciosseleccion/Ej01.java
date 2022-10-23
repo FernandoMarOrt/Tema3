@@ -10,7 +10,8 @@ public class Ej01 {
 
         System.out.print("Introduce tu edad:");
 
-        int edad = scanner.nextInt();
+        int edad = scanner.nextInt()
+                ;
 
         if (edad >= 18) {
             System.out.println("Es mayor de edad");
@@ -18,8 +19,7 @@ public class Ej01 {
             System.out.println("No es mayor de edad");
         }
 
-        System.out.print("mostrar la edad: ");
-        System.out.println(edad);
+        System.out.print("mostrar la edad: " + edad);
         
         //Los resultados son:
         // 15 es menor de edad
