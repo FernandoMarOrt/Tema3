@@ -2,7 +2,7 @@ package ejerciciosbucles;
 
 public class Ej01 {
     
-    //Calculo imprime x mientras que el numero sea menor o igual que 100
+    //imprime x mientras que el numero sea menor o igual que 100
 
     public static void main(String[] args) {
         int x = 1;
